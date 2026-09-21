@@ -1,8 +1,8 @@
-[![Build Status](https://github.com/dotnet-architecture/eShopOnWeb/workflows/eShopOnWeb%20Build%20and%20Test/badge.svg)](https://github.com/dotnet-architecture/eShopOnWeb/actions)
+[![Build Status](https://github.com/AkshatGW/eShopOnWeb/workflows/eShopOnWeb%20Build%20and%20Test/badge.svg)](https://github.com/AkshatGW/eShopOnWeb/actions)
 
-# Microsoft eShopOnWeb ASP.NET Core Reference Application
+# eShopOnWeb ASP.NET Core Reference Application
 
-Sample ASP.NET Core reference application, powered by Microsoft, demonstrating a single-process (monolithic) application architecture and deployment model. If you're new to .NET development, read the [Getting Started for Beginners](https://github.com/dotnet-architecture/eShopOnWeb/wiki/Getting-Started-for-Beginners) guide.
+Sample ASP.NET Core reference application demonstrating a single-process (monolithic) application architecture and deployment model. This repository is a fork of the original [dotnet-architecture/eShopOnWeb](https://github.com/dotnet-architecture/eShopOnWeb) sample. If you're new to .NET development, read the [Getting Started for Beginners](https://github.com/dotnet-architecture/eShopOnWeb/wiki/Getting-Started-for-Beginners) guide.
 
 A list of Frequently Asked Questions about this repository can be found [here](https://github.com/dotnet-architecture/eShopOnWeb/wiki/Frequently-Asked-Questions).
 
@@ -73,7 +73,7 @@ azd auth login
 
 Then, execute the `azd init` command to initialize the environment.
 ```
-azd init -t dotnet-architecture/eShopOnWeb 
+azd init -t AkshatGW/eShopOnWeb
 ```
 
 Run `azd up` to provision all the resources to Azure and deploy the code to those resources.
